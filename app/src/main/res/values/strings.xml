@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Activities</string>
+    <string name="textviewNotice">TextViewNotice</string>
+    <string name="buttonPhrases">Definições</string>
+    <string name="textviewphrases">TextViewPhrases</string>
+    <string name="buttonBack">Fechar</string>
 </resources>

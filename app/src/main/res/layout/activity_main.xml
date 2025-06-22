@@ -8,12 +8,27 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/textViewNotice"
+        android:layout_width="309dp"
+        android:layout_height="203dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/textviewNotice"
+        android:textAlignment="center"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/buttonPhrases"
+        android:layout_width="179dp"
+        android:layout_height="87dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/buttonPhrases"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNotice" />
 </androidx.constraintlayout.widget.ConstraintLayout>
